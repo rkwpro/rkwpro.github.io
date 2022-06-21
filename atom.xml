@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title></title>
   
-  
+  <subtitle>rkw��Сվ</subtitle>
   <link href="https://blog.rkwcloud.com/atom.xml" rel="self"/>
   
   <link href="https://blog.rkwcloud.com/"/>
@@ -10,7 +10,7 @@
   <id>https://blog.rkwcloud.com/</id>
   
   <author>
-    <name>rkwpro</name>
+    <name>rkwPro</name>
     
   </author>
   
