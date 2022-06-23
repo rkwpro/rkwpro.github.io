@@ -6,7 +6,7 @@
   <link href="https://blog.rkwcloud.com/atom.xml" rel="self"/>
   
   <link href="https://blog.rkwcloud.com/"/>
-  <updated>2022-06-20T03:22:45.926Z</updated>
+  <updated>2022-06-23T13:41:08.159Z</updated>
   <id>https://blog.rkwcloud.com/</id>
   
   <author>
@@ -17,17 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>newpapername</title>
-    <link href="https://blog.rkwcloud.com/2022/06/20/newpapername/"/>
-    <id>https://blog.rkwcloud.com/2022/06/20/newpapername/</id>
-    <published>2022-06-20T03:21:32.000Z</published>
-    <updated>2022-06-20T03:22:45.926Z</updated>
+    <title>开始测试</title>
+    <link href="https://blog.rkwcloud.com/2022/06/23/%E5%BC%80%E5%A7%8B%E6%B5%8B%E8%AF%95/"/>
+    <id>https://blog.rkwcloud.com/2022/06/23/%E5%BC%80%E5%A7%8B%E6%B5%8B%E8%AF%95/</id>
+    <published>2022-06-23T12:34:22.000Z</published>
+    <updated>2022-06-23T13:41:08.159Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>想睡饱</li><li>开心</li><li>懒</li><li>躺平</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;想睡饱&lt;/li&gt;
+&lt;li&gt;开心&lt;/li&gt;
+&lt;li&gt;懒&lt;/li&gt;
+&lt;li&gt;躺平&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
+      
     
     
     
-    
-    
-    <category term="对于blog的准备工作" scheme="https://blog.rkwcloud.com/tags/%E5%AF%B9%E4%BA%8Eblog%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/"/>
     
   </entry>
   
