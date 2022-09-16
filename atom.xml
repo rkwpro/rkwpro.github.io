@@ -6,7 +6,7 @@
   <link href="https://blog.rkwcloud.com/atom.xml" rel="self"/>
   
   <link href="https://blog.rkwcloud.com/"/>
-  <updated>2022-06-24T17:13:06.337Z</updated>
+  <updated>2022-07-28T17:58:58.504Z</updated>
   <id>https://blog.rkwcloud.com/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spring5</title>
+    <link href="https://blog.rkwcloud.com/2022/07/19/spring5/"/>
+    <id>https://blog.rkwcloud.com/2022/07/19/spring5/</id>
+    <published>2022-07-19T08:20:56.000Z</published>
+    <updated>2022-07-28T17:58:58.504Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="只要是框架那么一定是解放生产力的工具，就像sh脚本解放重复工作"><a href="#只要是框架那么一定是解放生产力的工具，就像sh脚本解放重复工作" class="headerlink" title="只要是框架那么一定是解放生产力的工具，就像sh脚本解放重复工作"></a>只要是框架那么一定是解放生产力的工具，就像sh脚本解放重复工作</h3><h1 id="spring"><a href="#spring" class="headerlink" title="spring"></a>spring</h1><ul><li>IOC：控制放权</li><li>AOP:对功能进行增强</li><li></li></ul><h2 id="IOC"><a href="#IOC" class="headerlink" title="IOC"></a>IOC</h2><h3 id="什么是IOC"><a href="#什么是IOC" class="headerlink" title="什么是IOC"></a>什么是IOC</h3><ul><li>把对象的创建不是主动出击，而是被动注入</li><li>通过spring的IOC进行控制翻转</li></ul><h3 id="IOC底层原理"><a href="#IOC底层原理" class="headerlink" title="IOC底层原理"></a>IOC底层原理</h3><ul><li>xml解析，工厂模式，反射</li><li><img src="/spring5_md_files/dbd38e90-0ccc-11ed-ad87-49ed06965959.jpeg?v=1&type=image"><br> <img src="/spring5_md_files/d0270d90-0cce-11ed-ad87-49ed06965959.jpeg?v=1&type=image"><br> 这样变化了直接改配置文件就行，就是降低了耦合度</li></ul><h3 id="IOC本质（就是个工厂）"><a href="#IOC本质（就是个工厂）" class="headerlink" title="IOC本质（就是个工厂）"></a>IOC本质（就是个工厂）</h3><h4 id="spring提供了IOC实现容器实现的两种方式："><a href="#spring提供了IOC实现容器实现的两种方式：" class="headerlink" title="spring提供了IOC实现容器实现的两种方式："></a>spring提供了IOC实现容器实现的两种方式：</h4><ul><li>（1）BeanFactory() &#x2F;&#x2F;一般不用，是spring内部使用（用的时候才创对象）</li><li>（2）ApplicationContext &#x2F;&#x2F; BeanFactory()的子接口，功能更多，多用（创建对象的时候就会用）<br>-<img src="/spring5_md_files/3cc0c2b0-0cd0-11ed-ad87-49ed06965959.jpeg?v=1&type=image" alt="功能如下"></li><li>就是读取xml文件的东西，获取以后创对象用的</li></ul><h3 id="IOC的bean管理"><a href="#IOC的bean管理" class="headerlink" title="IOC的bean管理"></a>IOC的bean管理</h3><ul><li>1.<strong>spring</strong> 创（new）对象，</li><li>2.<strong>spring</strong> 注入属性。&#x2F;&#x2F; 就是原来的set方法，emm就是说的高级了点</li></ul><h3 id="bean管理实现方式"><a href="#bean管理实现方式" class="headerlink" title="bean管理实现方式"></a>bean管理实现方式</h3><ul><li>1.基于xml配置方式</li></ul><h4 id=""><a href="#" class="headerlink" title=""></a><img src="/spring5_md_files/fa74a970-0e9c-11ed-96b5-e5105b828894.jpeg?v=1&type=image"></h4><h5 id="（1）在spring配置文件中，配置属性"><a href="#（1）在spring配置文件中，配置属性" class="headerlink" title="（1）在spring配置文件中，配置属性"></a>（1）在spring配置文件中，配置属性</h5><pre><code>    id是标识，但是和对象名可以不一致，id是唯一的    class属性，写一个创建类所需的全路径</code></pre><h3 id="-1"><a href="#-1" class="headerlink" title=""></a></h3><ul><li>2.基于注释方式实现<br>-（1）DI:依赖注入，注入属性<br>-（2）</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;只要是框架那么一定是解放生产力的工具，就像sh脚本解放重复工作&quot;&gt;&lt;a href=&quot;#只要是框架那么一定是解放生产力的工具，就像sh脚本解放重复工作&quot; class=&quot;headerlink&quot; title=&quot;只要是框架那么一定是解放生产力的工具，就像sh脚本解放重复工</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>css</title>
+    <link href="https://blog.rkwcloud.com/2022/06/26/css/"/>
+    <id>https://blog.rkwcloud.com/2022/06/26/css/</id>
+    <published>2022-06-26T09:05:02.000Z</published>
+    <updated>2022-06-26T12:58:39.640Z</updated>
+    
+    <content type="html"><![CDATA[<p>css是按照步骤去渲染的，如果有同一属性给了值，那么按照从上到下的顺序进行覆盖<br>我们所知的伪选择器就是状态选择器对于一个元素状态的定义<br>for example：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">input:hover&#123;</span><br><span class="line">/*表示如果鼠标点击进行了聚焦那么，元素将会变为内容框中的信息    */</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">input:hover&#123;</span><br><span class="line">/*表示如果鼠标点击进行了聚焦那么，元素将会变为内容框中的信息    */</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">transform:scale(1,2); /*放大元素到120%*/</span><br><span class="line">transition:ms  /*转化的过渡时间*/</span><br><span class="line">配合伪选择器使用</span><br></pre></td></tr></table></figure><p>odd奇数<br>even偶数<br><img src="/css_md_files/6d1ae7a0-f53e-11ec-af28-7f55075397fd.jpeg?v=1&type=image"><br><img src="/css_md_files/60a74610-f540-11ec-af28-7f55075397fd.jpeg?v=1&type=image"><br><img src="/css_md_files/b2521a80-f540-11ec-af28-7f55075397fd.jpeg?v=1&type=image"><br>逗号隔开，的共同属性<br><img src="/css_md_files/6f427b30-f541-11ec-af28-7f55075397fd.jpeg?v=1&type=image"><br>如果一个标签具有多个类的选择器，那么我们想要要求同时满足的时候才会变大<br><img src="/css_md_files/b9b908f0-f546-11ec-af28-7f55075397fd.jpeg?v=1&type=image"><br><img src="/css_md_files/cc8c5ef0-f546-11ec-af28-7f55075397fd.jpeg?v=1&type=image"><br><img src="/css_md_files/849cc1d0-f54f-11ec-af28-7f55075397fd.jpeg?v=1&type=image"><br><img src="/css_md_files/99a5bc80-f54f-11ec-af28-7f55075397fd.jpeg?v=1&type=image"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;css是按照步骤去渲染的，如果有同一属性给了值，那么按照从上到下的顺序进行覆盖&lt;br&gt;我们所知的伪选择器就是状态选择器对于一个元素状态的定义&lt;br&gt;for example：&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>动态规划</title>
