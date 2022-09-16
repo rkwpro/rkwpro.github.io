@@ -6,7 +6,7 @@
   <link href="https://blog.rkwcloud.com/atom.xml" rel="self"/>
   
   <link href="https://blog.rkwcloud.com/"/>
-  <updated>2022-07-28T17:58:58.504Z</updated>
+  <updated>2022-09-16T11:10:20.234Z</updated>
   <id>https://blog.rkwcloud.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java反射</title>
+    <link href="https://blog.rkwcloud.com/2022/09/16/java%E5%8F%8D%E5%B0%84/"/>
+    <id>https://blog.rkwcloud.com/2022/09/16/java%E5%8F%8D%E5%B0%84/</id>
+    <published>2022-09-16T11:05:11.000Z</published>
+    <updated>2022-09-16T11:10:20.234Z</updated>
+    
+    <content type="html"><![CDATA[<p>Tip:就是照镜子那种方式,打个比方，<strong>反射机制就像是一面镜子，而类就像是一个在照着镜子的人。</strong></p><p><strong>镜子（反射机制）照出（反射）了人的全貌（类的全方位的信息，例如方法，成员变量和构造器等的相关信息）</strong><br><img src="https://ask.qcloudimg.com/http-save/yehe-1148650/ke3squnyyf.png?imageView2/2/w/1620"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Tip:就是照镜子那种方式,打个比方，&lt;strong&gt;反射机制就像是一面镜子，而类就像是一个在照着镜子的人。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;镜子（反射机制）照出（反射）了人的全貌（类的全方位的信息，例如方法，成员变量和构造器等的相关信息）&lt;/strong&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="JAVA" scheme="https://blog.rkwcloud.com/tags/JAVA/"/>
+    
+  </entry>
   
   <entry>
     <title>spring5</title>
