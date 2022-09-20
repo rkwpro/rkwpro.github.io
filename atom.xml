@@ -6,7 +6,7 @@
   <link href="https://blog.rkwcloud.com/atom.xml" rel="self"/>
   
   <link href="https://blog.rkwcloud.com/"/>
-  <updated>2022-09-16T11:58:44.787Z</updated>
+  <updated>2022-09-20T11:26:09.670Z</updated>
   <id>https://blog.rkwcloud.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库常用知识</title>
+    <link href="https://blog.rkwcloud.com/2022/09/20/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%B8%B8%E7%94%A8%E7%9F%A5%E8%AF%86/"/>
+    <id>https://blog.rkwcloud.com/2022/09/20/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%B8%B8%E7%94%A8%E7%9F%A5%E8%AF%86/</id>
+    <published>2022-09-20T11:25:49.000Z</published>
+    <updated>2022-09-20T11:26:09.670Z</updated>
+    
+    <content type="html"><![CDATA[<p>都是123456<br>停止服务：net stop mysql80<br>启动服务：net start mysql80<br>登录服务:mysql -u root -p<br>查看内容：show databases;<br>打开数据库：use （数据库名字）；<br>DB:数据库<br>DBMS:数据库管理系统<br>SQL:结构化查询语言，用于和数据库通信的语言<br>展示表：show tables;<br>定点访问数据库表：show tables from (数据库名字)；<br>查看自己当前所在库：select database();<br>创建个表：create table （表 名）（属性）；<br>数据库中的字符串叫varchar();<br>看表的结构：desc （表 名）；<br>查看表里的数据：select * from (表 名)；<br>插入一条数据：insert into stuinfo (id,name) values(13,’Alice’);<br>修改数据： update stuinfo set name&#x3D;’hello’ where id &#x3D;1;<br>删除：delete from stuinfo where id&#x3D;1;<br>查看当前版本：select version();或者在cmd中输入mysql –version或mysql –V<br>单行注释：#注释</p><p>单行注释：–<space>注释</p><p>多行注释：&#x2F;*  *&#x2F; 注释</p><p>USE myemployees;#启用库<br>SELECT VERSION() AS（as可省略） 版本号;（起别名）</p><p>对字段的重复数字去重：SELECT DISTINCT <code>department_id</code> FROM employees;<br>把 两 个 字段连接起来：SELECT CONCAT(<code>last_name</code>,<code>first_name</code>) AS 姓名 FROM employees;<br>IFNULL函数：可以通过IFNULL（可能为null的字段，如果为null把值改为）；<br>条件查询<br>sectect 查询列表 from 表名 where 筛选条件；<br>——————————··<br>last_name LIKE ‘<em>$</em>%’ ESCAPE ‘$’;#通过告诉系统’$’表示转义 </p><p>&#x3D;或&lt;&gt;不能判断null，只能用is或is not<br>分组后筛选用having<br>分组前的筛选用where</p><p>#按表达式</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;都是123456&lt;br&gt;停止服务：net stop mysql80&lt;br&gt;启动服务：net start mysql80&lt;br&gt;登录服务:mysql -u root -p&lt;br&gt;查看内容：show databases;&lt;br&gt;打开数据库：use （数据库名字）；&lt;br&gt;DB:</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>java反射</title>
